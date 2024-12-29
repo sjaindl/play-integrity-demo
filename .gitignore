@@ -23,5 +23,33 @@
 hs_err_pid*
 replay_pid*
 
+# Gradle generated files
+gradle-wrapper*
+.gradle
+gradlew
+gradlew.bat
+
 # Kotlin Gradle plugin data, see https://kotlinlang.org/docs/whatsnew20.html#new-directory-for-kotlin-data-in-gradle-projects
 .kotlin/
+
+# User-specific configurations
+.idea/libraries/
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/.name
+.idea/compiler.xml
+.idea/copyright/profiles_settings.xml
+.idea/encodings.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/scopes/scope_settings.xml
+.idea/vcs.xml
+.idea/caches
+.idea/shelf/
+*.iml
+
+# build files
+build
+
+# Google service account key file
+travel-companion-service-account.json
